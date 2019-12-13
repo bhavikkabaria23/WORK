@@ -1,0 +1,17 @@
+https://docs.plesk.com/en-US/onyx/api-rpc/about-xml-api/reference/managing-subscriptions/deleting-subscriptions.33914/
+-> use this same as for CreatePleskCustomer
+drop subscription from plesk,
+need 
+---------------
+drop database
+alter database testnop390 set single_user with rollback immediate
+drop database testnop390
+-------------------
+delete from 
+Owner
+Site
+SiteOrder
+Customer
+Sitetheme
+Siteplugin
+
