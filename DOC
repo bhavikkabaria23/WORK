@@ -1,0 +1,11 @@
+https://www.c-sharpcorner.com/article/asp-net-mvc5-docusign-part-2-send-document-f/
+https://www.c-sharpcorner.com/article/asp-net-mvc5-docusign-track-envelopes/
+https://github.com/docusign/docusign-csharp-client
+---------------
+1) Put checkboxes instead of signatures
+2) In step 11, generate PDF -> crete envelope and load pdf in iframe
+with all places signature
+-> pdf name should the same what we have now 
+3) Disable the submit button by default, it will be enable only after signing
+-> use the return url of any cshtml page for this and in that page make this Submit button enable.
+4) 
