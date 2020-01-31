@@ -1,0 +1,11 @@
+  private string SetPrice(string priceValue)
+        {
+            string actualPrice = "$ 0.00";
+            if (!string.IsNullOrEmpty(priceValue))
+            {
+                decimal decimalPrice = 0;
+                decimal.TryParse(priceValue, out decimalPrice);
+                actualPrice = "$ " + String.Format("{0:0.00}", decimalPrice);
+            }
+            return actualPrice;
+        }
